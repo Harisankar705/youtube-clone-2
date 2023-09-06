@@ -1,0 +1,55 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Roboto',sans-serif;
+}
+.header
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:60px;
+    padding:15px;
+}
+main{
+    height:calc(100vh-60px);
+    display:flex;
+    background-color:#f9f9f9;
+
+}
+.sidebar
+{
+height:100%;
+width:17%;
+background-color:white;
+}
+.logoleft
+{
+    align-items: center;
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+    padding: 0 7px;
+}
+.search
+{
+    display: flex;
+
+}
+.search form{
+    display: flex;
+    border: 1px solid;
+    color: #ddd;
+    height: 45px;
+}
+.searchinput
+{
+    width:600px;
+    padding: 10px;
+    border:none;
+    font-size: 14;
+}
